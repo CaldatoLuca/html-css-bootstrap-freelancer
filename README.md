@@ -2,18 +2,22 @@
 
 _HTML+css_
 
+    # Mobile
+
 <div align="center">
-    <div>## Mobile</div>
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/mobile.jpeg">
 </div>
 
+    ## Tablet
+
 <div align="center">
-    <div>## Tablet</div>
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/tablet.jpeg">
 </div>
 
+    ## Desktop
+
 <div align="center">
-    <div>## Desktop</div>
+    
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/desktop.jpeg">
 </div>
 
