@@ -1,0 +1,24 @@
+@import "_partials/typho.css";
+
+/*
+?------------
+!PALETTE 
+?------------
+ */
+
+:root {
+  --header-bg: #2c3e50;
+  --jumbo-bg: #1abc9c;
+  --section-title: #333333;
+  --footer-bg: #3a546d;
+}
+
+/*
+?------------
+!HEADER 
+?------------
+ */
+header {
+  background-color: var(--header-bg);
+  height: 90px;
+}
