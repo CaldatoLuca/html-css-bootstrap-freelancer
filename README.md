@@ -3,7 +3,7 @@
 _HTML+css_
 
 <div align="center">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/thumbnail/mobile.jpeg">
+    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/.gitignore/thumbnail/mobile.jpeg">
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/thumnbail/tablet.jpeg">
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/thumnbail/desktop.jpeg">
 </div>
