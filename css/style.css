@@ -30,6 +30,7 @@ header {
 ?------------
 */
 /* !jumbotron */
-main .-ms-jumbo {
+main .-ms-jumbo,
+main .-ms-about {
   background-color: var(--jumbo-bg);
 }
