@@ -34,3 +34,16 @@ main .-ms-jumbo,
 main .-ms-about {
   background-color: var(--jumbo-bg);
 }
+/*
+?------------
+!FOOTER 
+?------------
+*/
+/* !top-footer */
+footer .-ms-top-footer {
+  background-color: var(--header-bg);
+}
+/* !bottom-footer */
+footer .-ms-bottom-footer {
+  background-color: var(--footer-bg);
+}

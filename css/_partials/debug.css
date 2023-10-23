@@ -1,6 +1,16 @@
+/*
+?------------
+!COMMON 
+?------------
+*/
 .debug .container {
   background-color: salmon;
 }
+/*
+?------------
+!MAIN 
+?------------
+*/
 .debug .-ms-portfolio .row {
   background-color: tan;
 }
@@ -18,4 +28,22 @@
   width: 300px;
   height: 300px;
   background-color: blue;
+}
+
+/*
+?------------
+!FOOTER 
+?------------
+*/
+.debug footer .row {
+  background-color: tan;
+}
+.debug footer .col-12 {
+  height: 100px;
+}
+.debug .-ms-col-content {
+  background-color: purple;
+  width: 100%;
+  height: 100%;
+  border: 2px dotted black;
 }
