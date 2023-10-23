@@ -1,6 +1,19 @@
 .debug .container {
   background-color: salmon;
 }
+.debug .-ms-portfolio .row {
+  background-color: tan;
+}
+.debug .-ms-portfolio .col-12 {
+  height: 100px;
+}
+.debug .-ms-col-content {
+  background-color: purple;
+  width: 100%;
+  height: 100%;
+  border: 2px dotted black;
+}
+
 .debug .-ms-img {
   width: 300px;
   height: 300px;
