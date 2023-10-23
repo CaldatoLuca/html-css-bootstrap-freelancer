@@ -3,10 +3,11 @@
 _HTML+css_
 
 <div align="center">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/thumnail/mobile.jpeg">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/thumnail/tablet.jpeg">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/thumnail/desktop.jpeg">
+    <img src="https://github.com/CaldatoLuca/html-css-spotifyweb/raw/main/thumnail/mobile.jpeg">
+    <img src="https://github.com/CaldatoLuca/html-css-spotifyweb/raw/main/thumnail/tablet.jpeg">
+    <img src="https://github.com/CaldatoLuca/html-css-spotifyweb/raw/main/thumnail/desktop.jpeg">
 </div>
+
 # Step 1
 
 Creazione del layot base del sito utilizzando per la prima volta Bootstap
