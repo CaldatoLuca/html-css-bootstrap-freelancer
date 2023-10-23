@@ -3,17 +3,17 @@
 _HTML+css_
 
 <div align="center">
-    <div>Mobile</div>
+    <div>## Mobile</div>
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/mobile.jpeg">
 </div>
 
 <div align="center">
-    <div>Tablet</div>
+    <div>## Tablet</div>
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/tablet.jpeg">
 </div>
 
 <div align="center">
-    <div>Desktop</div>
+    <div>## Desktop</div>
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/desktop.jpeg">
 </div>
 
