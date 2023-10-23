@@ -3,9 +3,9 @@
 _HTML+css_
 
 <div align="center">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/./thumnail/mobile.jpeg">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/./thumnail/tablet.jpeg">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/./thumnail/desktop.jpeg">
+    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/thumnail/mobile.jpeg">
+    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/thumnail/tablet.jpeg">
+    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/thumnail/desktop.jpeg">
 </div>
 # Step 1
 
