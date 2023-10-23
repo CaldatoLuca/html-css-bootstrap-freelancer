@@ -2,22 +2,22 @@
 
 _HTML+css_
 
-    # Mobile
 
+### `Mobile`
+    
 <div align="center">
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/mobile.jpeg">
 </div>
 
-    ## Tablet
+### `Tablet`
 
 <div align="center">
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/tablet.jpeg">
 </div>
 
-    ## Desktop
+### `Desktop`
 
 <div align="center">
-    
     <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/desktop.jpeg">
 </div>
 
@@ -26,4 +26,4 @@ _HTML+css_
 Creazione del layot base del sito utilizzando per la prima volta Bootstap
 
 - utilizzo delle classi di utility per creare le griglie e impostare proprietà di spacing e di style
-- differenziazione tra le classi Bootstrap e le classi personali (-ms)
+- differenziazione tra le classi Bootstrap e le classi personali (-ms-)
