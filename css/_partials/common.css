@@ -6,3 +6,7 @@ main .-lc-portfolio,
 main .-lc-contact-me {
   color: var(--dark-blue-600);
 }
+
+.-lc-green-text {
+  color: var(--jumbo-bg);
+}

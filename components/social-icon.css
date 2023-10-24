@@ -1,0 +1,13 @@
+.-lc-socials-icon {
+  border: 1px solid currentColor;
+  padding: 10px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* 
+!html
+                  <div class="-lc-socials-icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+*/

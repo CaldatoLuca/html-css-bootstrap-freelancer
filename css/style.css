@@ -4,6 +4,7 @@
 
 /* !componenets */
 @import "../components/icon-separator.css";
+@import "../components/social-icon.css";
 
 /*
 ?------------
@@ -49,10 +50,10 @@ header {
 ?------------
 */
 /* !top-footer */
-footer .-ms-top-footer {
+footer .-lc-top-footer {
   background-color: var(--dark-blue-600);
 }
 /* !bottom-footer */
-footer .-ms-bottom-footer {
+footer .-lc-bottom-footer {
   background-color: var(--dark-blue-400);
 }
