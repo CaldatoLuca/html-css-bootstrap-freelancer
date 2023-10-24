@@ -18,12 +18,39 @@
   </head>
   <body class="debug">
     <!-- *logo e menu del sito -->
-    <header class="d-flex align-items-center">
+    <header class="d-flex align-items-center py-4 text-white">
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="col">Logo</div>
-          <div class="col d-flex justify-content-end">Menu</div>
-        </div>
+        <nav
+          class="navbar navbar-expand-lg text-uppercase"
+          data-bs-theme="dark"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">start bootstrap</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >portfolio</a
+                >
+                <a class="nav-link text-white" href="#">about</a>
+                <a class="nav-link text-white" href="#">contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
     <!-- *logo e menu del sito/ -->
@@ -31,33 +58,33 @@
     <!-- *corpo principale sito -->
     <main>
       <!-- ?jumbotron -->
-      <section class="-ms-jumbo pt-3 pb-3">
-        <div class="container d-flex justify-content-center align-items-center">
+      <section class="-ms-jumbo py-5">
+        <div class="container">
           <!-- !contenuto jumbotron -->
-          <div
-            class="-ms-jumbo-content row justify-content-center text-center p-3"
-          >
-            <!-- immagine -->
-            <div
-              class="-ms-jumbo-img col-12 d-flex justify-content-center mb-4"
-            >
-              <div class="-ms-img"></div>
+          <div class="row text-center justify-content-center">
+            <div class="col-3">
+              <!-- immagine -->
+              <div class="-ms-img">
+                <img class="img-fluid" src="img/avatar.svg" alt="jumbo image" />
+              </div>
+              <!-- immagine -->
             </div>
-            <!-- immagine/ -->
 
-            <!-- titolo -->
-            <div class="-ms-jumbo-title col-12 mb-4">
+            <div class="col-12">
+              <!-- titolo -->
               <h1 class="text-uppercase">start bootstrap</h1>
-            </div>
-            <!-- titolo -->
+              <!-- titolo/ -->
 
-            <!-- sottotitolo -->
-            <div class="-ms-jumbo-subtitle col-12">
+              <!-- separatore -->
+
+              <!-- separatore/ -->
+
+              <!-- sottotitolo -->
               <h3 class="text-uppercase">
                 graphic artist - web designer - illustrator
               </h3>
+              <!-- sottotitolo/ -->
             </div>
-            <!-- sottotitolo -->
           </div>
           <!-- !contenuto jumbotron/ -->
         </div>
@@ -65,7 +92,7 @@
       <!-- ?jumbotron/ -->
 
       <!-- ?portfolio -->
-      <section class="-ms-portfolio pt-3 pb-3">
+      <section class="-ms-portfolio py-3">
         <div class="container overflow-hidden">
           <div class="-ms-portfolio-title text-center mb-3">
             <h2 class="text-uppercase">Portfolio</h2>
@@ -97,7 +124,7 @@
       <!-- ?portfolio/ -->
 
       <!-- ?about -->
-      <section class="-ms-about pt-3 pb-3">
+      <section class="-ms-about py-3">
         <div class="container">
           <div class="-ms-about-content">
             <div class="-ms-about-title text-center mb-4">
@@ -124,7 +151,7 @@
       <!-- ?about/ -->
 
       <!-- ?contact me -->
-      <section class="-ms-contact-me pt-3 pb-3">
+      <section class="-ms-contact-me py-3">
         <div class="container">
           <div class="-ms-contact-me-content row justify-content-center">
             <div class="-ms-contact-me-title col-12 text-center mb-4">
@@ -147,7 +174,7 @@
     <!-- *footer del sito -->
     <footer>
       <!-- ?parte alta footer -->
-      <div class="-ms-top-footer pt-3 pb-3">
+      <div class="-ms-top-footer py-3">
         <div class="container overflow-hidden">
           <div class="row g-3 justify-content-between">
             <div class="col-12 col-md-4">
@@ -171,5 +198,13 @@
       <!-- ?parte bassa footer/ -->
     </footer>
     <!-- *footer del sito/ -->
+
+    <!-- *link bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- *link bootstrap js/ -->
   </body>
 </html>

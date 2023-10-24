@@ -5,13 +5,13 @@
 ?------------
 !PALETTE 
 ?------------
- */
+*/
 
 :root {
-  --header-bg: #2c3e50;
-  --jumbo-bg: #1abc9c;
-  --section-title: #333333;
-  --footer-bg: #3a546d;
+  --dark-blue-600: rgb(44, 62, 80);
+  --jumbo-bg: rgb(26, 188, 156);
+  --section-title: rgb(51, 51, 51);
+  --dark-blue-400: rgb(58, 84, 109);
 }
 
 /*
@@ -20,8 +20,7 @@
 ?------------
 */
 header {
-  background-color: var(--header-bg);
-  height: 90px;
+  background-color: var(--dark-blue-600);
 }
 
 /*
@@ -34,6 +33,7 @@ main .-ms-jumbo,
 main .-ms-about {
   background-color: var(--jumbo-bg);
 }
+
 /*
 ?------------
 !FOOTER 
@@ -41,9 +41,9 @@ main .-ms-about {
 */
 /* !top-footer */
 footer .-ms-top-footer {
-  background-color: var(--header-bg);
+  background-color: var(--dark-blue-600);
 }
 /* !bottom-footer */
 footer .-ms-bottom-footer {
-  background-color: var(--footer-bg);
+  background-color: var(--dark-blue-400);
 }
