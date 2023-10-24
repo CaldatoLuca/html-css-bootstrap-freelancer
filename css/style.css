@@ -1,6 +1,9 @@
 @import "_partials/typho.css";
 @import "_partials/debug.css";
 
+/* !componenets */
+@import "../components/icon-separator.css";
+
 /*
 ?------------
 !PALETTE 
@@ -29,7 +32,7 @@ header {
 ?------------
 */
 /* !jumbotron */
-main .-ms-jumbo,
+main .-lc-jumbo,
 main .-ms-about {
   background-color: var(--jumbo-bg);
 }

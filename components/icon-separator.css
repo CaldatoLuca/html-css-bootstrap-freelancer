@@ -1,0 +1,24 @@
+.-lc-icon-separator {
+  position: relative;
+}
+
+.-lc-icon-separator::before {
+  content: "";
+  background: currentColor;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-120%, -25%);
+  height: 4px;
+  width: 10vw;
+}
+.-lc-icon-separator::after {
+  content: "";
+  background: currentColor;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(20%, -25%);
+  height: 4px;
+  width: 10vw;
+}

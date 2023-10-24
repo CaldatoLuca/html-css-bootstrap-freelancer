@@ -12,11 +12,17 @@
       crossorigin="anonymous"
     />
     <!-- *link a boostrap/ -->
+    <!-- *link fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/d7e1ca7451.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- *link fontawesome/ -->
     <!-- *link al css -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- *link al css/ -->
   </head>
-  <body class="debug">
+  <body class="debug fw-bold">
     <!-- *logo e menu del sito -->
     <header class="d-flex align-items-center py-4 text-white">
       <div class="container">
@@ -25,7 +31,9 @@
           data-bs-theme="dark"
         >
           <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">start bootstrap</a>
+            <a class="navbar-brand text-white" href="#"
+              ><h3 class="fw-bold">start bootstrap</h3></a
+            >
             <button
               class="navbar-toggler"
               type="button"
@@ -58,29 +66,29 @@
     <!-- *corpo principale sito -->
     <main>
       <!-- ?jumbotron -->
-      <section class="-ms-jumbo py-5">
+      <section class="-lc-jumbo py-5 text-white">
         <div class="container">
           <!-- !contenuto jumbotron -->
           <div class="row text-center justify-content-center">
-            <div class="col-3">
+            <div class="col-6 col-md-5 col-lg-4 col-xl-4 mb-4">
               <!-- immagine -->
-              <div class="-ms-img">
-                <img class="img-fluid" src="img/avatar.svg" alt="jumbo image" />
-              </div>
+              <img class="img-fluid" src="img/avatar.svg" alt="jumbo image" />
               <!-- immagine -->
             </div>
 
             <div class="col-12">
               <!-- titolo -->
-              <h1 class="text-uppercase">start bootstrap</h1>
+              <h1 class="text-uppercase fw-bold mb-4">start bootstrap</h1>
               <!-- titolo/ -->
 
               <!-- separatore -->
-
+              <div class="-lc-icon-separator mb-4 fs-2">
+                <i class="fa-solid fa-star"></i>
+              </div>
               <!-- separatore/ -->
 
               <!-- sottotitolo -->
-              <h3 class="text-uppercase">
+              <h3 class="text-uppercase fw-bold">
                 graphic artist - web designer - illustrator
               </h3>
               <!-- sottotitolo/ -->
