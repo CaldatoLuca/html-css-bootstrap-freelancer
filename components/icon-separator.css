@@ -24,3 +24,12 @@
   height: 4px;
   width: 10vw;
 }
+
+/* 
+?HTML
+          <!-- separatore -->
+          <div class="-lc-icon-separator mb-4 fs-2">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <!-- separatore/ -->
+*/
