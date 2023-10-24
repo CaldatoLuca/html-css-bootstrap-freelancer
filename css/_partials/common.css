@@ -1,0 +1,7 @@
+main .-lc-jumbo,
+main .-ms-about {
+  background-color: var(--jumbo-bg);
+}
+body {
+  border-collapse: separate;
+}

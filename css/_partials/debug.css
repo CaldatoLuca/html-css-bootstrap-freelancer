@@ -1,34 +1,33 @@
-/*
+/* 
 ?------------
 !COMMON 
 ?------------
 */
-/* .debug .container {
+.debug .container {
   background-color: salmon;
-} */
+}
 /*
 ?------------
 !MAIN 
 ?------------
 */
-/* .debug .-ms-portfolio .row {
+.debug .-ms-portfolio .row {
   background-color: tan;
 }
 .debug .-ms-portfolio .col-12 {
   height: 100px;
-} */
-.debug .-ms-col-content {
+}
+*/ .debug .-ms-col-content {
   background-color: purple;
   width: 100%;
   height: 100%;
   border: 2px dotted black;
 }
-/* 
-.debug .-ms-img {
+*/ .debug .-ms-img {
   width: 300px;
   height: 300px;
   background-color: blue;
-} */
+}
 
 /*
 ?------------
