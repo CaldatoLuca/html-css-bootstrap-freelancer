@@ -193,13 +193,21 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Voluptas maiores facere iste quas qui? Sint temporibus pariatur
                 quaerat, quo, sequi ipsam minima distinctio, neque repellat
-                cupiditate labore error delectus tempore!
+                cupiditate labore error delectus tempore! Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Non, molestiae praesentium.
+                Vitae quibusdam quia aperiam eaque cum sint optio voluptate
+                omnis. Ullam temporibus quaerat corrupti veritatis iusto, ab
+                dolores labore.
               </p>
               <p class="px-4">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
                 tenetur commodi, nobis dignissimos repellat qui temporibus
                 voluptate aut eum reprehenderit pariatur libero inventore velit
-                fugit tempora ullam ad et quia.
+                fugit tempora ullam ad et quia. Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Necessitatibus, animi nostrum ea
+                quod, consectetur quibusdam explicabo ducimus corrupti totam
+                omnis sed ullam perspiciatis quidem facilis minima veniam
+                temporibus. Libero, aut?
               </p>
             </div>
             <!-- testo/ -->
@@ -215,19 +223,81 @@
       <!-- ?about/ -->
 
       <!-- ?contact me -->
-      <section class="-ms-contact-me py-3">
+      <section class="-lc-contact-me py-5">
         <div class="container">
-          <div class="-ms-contact-me-content row justify-content-center">
-            <div class="-ms-contact-me-title col-12 text-center mb-4">
-              <h2 class="text-uppercase">contact me</h2>
+          <div class="-lc-contact-me-content text-center">
+            <!-- titolo -->
+            <h2 class="text-uppercase fw-bold mb-4">contact me</h2>
+            <!-- titolo/ -->
+
+            <!-- separatore -->
+            <div class="-lc-icon-separator mb-4 fs-2">
+              <i class="fa-solid fa-star"></i>
             </div>
-            <div class="-ms-contact-me-text col-8">
-              <div class="mb-1">name</div>
-              <div class="mb-1">email address</div>
-              <div class="mb-1">phone number</div>
-              <div class="mb-5">message</div>
-              <div>send</div>
-            </div>
+            <!-- separatore/ -->
+
+            <!-- !form -->
+            <form action="GET" class="text-start">
+              <!-- nome -->
+              <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+
+                <input
+                  type="text"
+                  class="form-control border-0 border-bottom rounded-0"
+                  aria-label="username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <!-- nome/ -->
+
+              <!-- email -->
+              <div class="mb-3 text">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control border-0 border-bottom rounded-0"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text text-danger">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <!-- email/ -->
+
+              <!-- numero di telefono -->
+              <div class="mb-3">
+                <label for="phone number" class="form-label"
+                  >Phone Number</label
+                >
+
+                <input
+                  type="text"
+                  class="form-control border-0 border-bottom rounded-0"
+                  aria-label="phone number"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <!-- numero di telefono/ -->
+
+              <!-- textarea -->
+              <div class="mb-3">
+                <label for="text area" class="form-label">Message</label>
+                <textarea
+                  class="form-control -lc-textarea border-0 border-bottom rounded-0"
+                  aria-label="With textarea"
+                ></textarea>
+              </div>
+              <!-- textarea -->
+
+              <!-- bottone -->
+              <button type="button" class="btn btn-outline-light -lc-form-btn">
+                Send
+              </button>
+              <!-- bottone/ -->
+            </form>
+            <!-- !form/ -->
           </div>
         </div>
       </section>

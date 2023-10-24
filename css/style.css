@@ -32,9 +32,15 @@ header {
 !MAIN 
 ?------------
 */
-/* !portfolio */
-.-lc-portfolio {
-  color: var(--dark-blue-600);
+/* !contact me */
+.-lc-contact-me .-lc-textarea {
+  height: 200px;
+}
+.-lc-contact-me .-lc-form-btn {
+  background-color: var(--jumbo-bg);
+}
+.form-control:focus {
+  box-shadow: none;
 }
 
 /*

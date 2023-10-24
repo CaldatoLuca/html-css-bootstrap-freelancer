@@ -2,6 +2,7 @@ main .-lc-jumbo,
 main .-lc-about {
   background-color: var(--jumbo-bg);
 }
-body {
-  border-collapse: separate;
+main .-lc-portfolio,
+main .-lc-contact-me {
+  color: var(--dark-blue-600);
 }
