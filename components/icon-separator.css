@@ -1,28 +1,19 @@
-/*!TODO   funziona solo se l icon è con text center */
-
 .-lc-icon-separator {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.-lc-icon-separator::before {
-  content: "";
-  background: currentColor;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-120%, -25%);
-  height: 4px;
-  width: 10vw;
+.-lc-icon-separator > * {
+  padding: 25px;
 }
+.-lc-icon-separator::before,
 .-lc-icon-separator::after {
   content: "";
+  display: inline-block;
   background: currentColor;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(20%, -25%);
   height: 4px;
-  width: 10vw;
+  width: 14vw;
+  border-radius: 2px;
 }
 
 /* 

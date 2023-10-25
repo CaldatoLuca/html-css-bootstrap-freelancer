@@ -40,9 +40,6 @@ header {
 .-lc-contact-me .-lc-form-btn {
   background-color: var(--jumbo-bg);
 }
-.form-control:focus {
-  box-shadow: none;
-}
 
 /*
 ?------------
