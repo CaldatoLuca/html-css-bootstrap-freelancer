@@ -2,9 +2,13 @@
 
 .-lc-socials-icon {
   display: inline-block;
-  border: 1px solid currentColor;
+  border-width: var(--social-icon-bw, 0.0625rem);
+  border-style: solid;
+  border-color: currentColor;
   text-align: center;
-  line-height: var(--social-icon-size, 3.4375rem);
+  line-height: calc(
+    var(--social-icon-size, 3.4375rem) - 2 * var(--social-icon-bw, 0.0625rem)
+  );
   width: var(--social-icon-size, 3.4375rem);
   height: var(--social-icon-size, 3.4375rem);
   border-radius: 50%;
