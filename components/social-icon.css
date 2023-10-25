@@ -1,13 +1,20 @@
+/* !TODO cambio var(--social-icon-size) per vari casi */
+
 .-lc-socials-icon {
+  display: inline-block;
   border: 1px solid currentColor;
-  padding: 10px;
-  width: 50px;
+  text-align: center;
+  line-height: var(--social-icon-size, 3.4375rem);
+  width: var(--social-icon-size, 3.4375rem);
+  height: var(--social-icon-size, 3.4375rem);
   border-radius: 50%;
+  color: inherit;
+  font-size: calc(0.3 * var(--social-icon-size, 3.4375rem));
 }
 
 /* 
 !html
-                  <div class="-lc-socials-icon">
-                    <i class="fa-brands fa-facebook-f"></i>
-                  </div>
+                  <a href="index.html" class="-lc-socials-icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
 */
