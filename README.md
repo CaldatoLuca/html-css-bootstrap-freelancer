@@ -1,56 +1,33 @@
 # Bootstrap Freelancer
 
-_HTML+css_
+Questo progetto è un esercizio di sviluppo web front-end. L'obiettivo principale è praticare l'utilizzo del framework Bootstrap per la creazione di un layout moderno e responsivo.
 
-# Step 1
+## Introduzione
 
-Creazione del layot base del sito utilizzando per la prima volta Bootstap
+Bootstrap Freelancer è un sito web che offre un layout accattivante e funzionale. Questo esercizio si concentra sulla ricreazione di parti chiave del layout del sito originale, inclusi il menu di navigazione, il jumbotron, la sezione del portfolio, la descrizione "about", e il modulo di contatto.
 
-- utilizzo delle classi di utility per creare le griglie e impostare proprietà di spacing e di style
-- differenziazione tra le classi Bootstrap e le classi personali (-ms-)
+## Descrizione
 
+Questo progetto si focalizza sull'apprendimento e sulla pratica delle tecniche di sviluppo web front-end utilizzando il framework Bootstrap. L'esercizio comprende l'utilizzo di componenti e classi forniti da Bootstrap per strutturare e stilizzare il layout, oltre all'integrazione di icone fornite dalla libreria Font Awesome per migliorare l'estetica e l'usabilità.
 
-### `Mobile`
-    
-<div align="center">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/mobile.jpeg">
-</div>
+## Caratteristiche
 
-### `Tablet`
+- Utilizzo del framework Bootstrap per la creazione del layout e dei componenti.
+- Utilizzo di icone fornite dalla libreria Font Awesome per migliorare l'usabilità e l'estetica.
+- Design responsivo per garantire una corretta visualizzazione su dispositivi di diverse dimensioni.
 
-<div align="center">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/tablet.jpeg">
-</div>
+## Tecnologie Utilizzate
 
-### `Desktop`
+- HTML
+- CSS
+- Bootstrap
+- Font Awesome
 
-<div align="center">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/desktop.jpeg">
-</div>
+## Installazione e Utilizzo
 
-# Step 2
+Per visualizzare e utilizzare questo progetto in locale, segui questi passaggi:
 
-Inserimento dei contenuti nel layout
+1. Clona questo repository sul tuo computer locale.
+2. Apri il file `index.html` nel tuo browser web.
 
-- utilizzo delle classi di utility
-- utilizzo di form e bottoni presi direttamente da Bootstrap (e eventualmente modificati)
-- differenziazione tra le classi Bootstrap e le classi personali (-ms-)
-
-
-### `Mobile`
-    
-<div align="center">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/mobile-ended.jpeg">
-</div>
-
-### `Tablet`
-
-<div align="center">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/tablet-ended.jpeg">
-</div>
-
-### `Desktop`
-
-<div align="center">
-    <img src="https://github.com/CaldatoLuca/html-css-bootstrap-freelancer/raw/main/readme-img/desktop-ended.jpeg">
-</div>
+In alternativa, puoi visualizzare la demo live [qui](https://caldatoluca.github.io./bootstrap-freelancer/#).
